@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+  .home nav {
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .home nav .container .row .navtxt {
+    display: none;
+  }
+  .home nav .container .row .navbtn {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

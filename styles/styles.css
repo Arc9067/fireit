@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+}
+
+a, button {
+  color: black;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: Siega;
+  src: url(../fonts/SiegraRegular-ALg9A.otf);
+  font-style: normal;
+}
+@font-face {
+  font-family: integral;
+  src: url(../fonts/Fontspring-DEMO-integralcf-medium.otf);
+  font-style: normal;
+}
+.home {
+  background: url(../img/Bgs/homebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+.home nav {
+  height: 10vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.37);
+}
+.home nav .container {
+  padding: 0;
+}
+.home nav .container .row {
+  width: 100%;
+  padding: 0;
+}
+.home nav .container .row .navimg {
+  height: auto;
+  overflow: hidden;
+}
+.home nav .container .row .navtxt {
+  align-items: center;
+}
+.home nav .container .row .navtxt ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.home nav .container .row .navtxt ul li {
+  font-family: integral;
+  list-style: none;
+  color: white;
+  font-size: 16px;
+  transition: all 1s;
+  font-weight: lighter;
+}
+.home nav .container .row .navtxt ul a:hover li {
+  color: #F7A500;
+}
+.home nav .container .row .navbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home nav .container .row .navbtn .navbicon {
+  width: auto;
+  background-color: transparent;
+  border: 1px solid #F7A500;
+  padding: 5px;
+  border-radius: 15px;
+}
+.home nav .container .row .navbtn .navbicon i {
+  font-size: 1.5em;
+  color: #F7A500;
+  padding-right: 10px;
+}
+.home nav .container .row .navbtn .navblink {
+  width: auto;
+}
+.home nav .container .row .navbtn .navblink a button {
+  padding: 10px;
+  border-radius: 20px;
+  font-family: integral;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */

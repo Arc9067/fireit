@@ -1,0 +1,145 @@
+//general styling here
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+//global styling ends here
+
+body{
+    background-color: red;
+    
+}
+
+a,button{
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+//global styling ends here!
+
+//font styling here
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Siega;
+    src: url(../fonts/SiegraRegular-ALg9A.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: integral;
+    src: url(../fonts/Fontspring-DEMO-integralcf-medium.otf);
+    font-style: normal;
+}
+
+//font variables
+$Popins: Poppins;
+$Siega:Siega;
+$integral:integral;
+//font variables ends here!
+
+.home{
+    background: url(../img/Bgs/homebg.png);
+    background-repeat: no-repeat;
+    // object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+
+    nav{
+        height: 10vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.37);
+
+        .container{
+            // background-color: aliceblue;
+            padding: 0;
+            .row{
+                // background-color: blue;
+                width: 100%;
+                padding: 0;
+                .navimg{
+                    // background: red;
+                    height: auto;
+                    overflow: hidden;
+                }
+                .navtxt{
+                    // background-color: green;
+                    align-items: center;
+
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        text-align: center;
+                        align-items: center;
+                        // background-color: purple;
+                        margin-top: 20px;
+
+                        li{
+                            font-family: $integral;
+                            list-style: none;
+                            color: white;
+                            font-size: 16px;
+                            transition: all 1s;
+                            font-weight: lighter;
+                        }
+                        a:hover{
+                            li{
+                                color: #F7A500;
+                            }
+                            
+                        }
+                        
+                    }
+                }
+                .navbtn{
+                    // background-color: purple;
+                    display:flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .navbicon{
+                        width: auto;
+                        background-color: transparent;
+                        border: 1px solid #F7A500;
+                        padding: 5px;
+                        border-radius: 15px;
+
+                        i{
+                            font-size: 1.5em;
+                            color: #F7A500;
+                            padding-right: 10px;
+                        }
+                    }
+                    .navblink{
+                        width: auto;
+                        // background-color: red;
+                        a{
+                            button{
+                                padding: 10px;
+                                border-radius: 20px;
+                                font-family: $integral;
+                                background-color: transparent;
+                                border: 1px solid #fff;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
