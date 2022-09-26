@@ -2,6 +2,7 @@
   .home nav {
     height: auto;
     padding-bottom: 10px;
+    padding-top: 20px;
   }
   .home nav .container .row .navtxt {
     display: none;
@@ -10,7 +11,7 @@
     margin-top: 10px;
   }
   .home .hometxt .container .maintxt p {
-    width: 80%;
+    width: 100%;
   }
   .about .container p {
     width: 90%;
