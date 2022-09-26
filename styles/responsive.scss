@@ -1,7 +1,13 @@
 @media  screen and (max-width:752px) {
+    .home nav .container .row .navbtn .navblink a button {
+            display: none;
+        }
+                .home .hometxt .container .maintxt h1{
+                    font-size: 4em;
+                    line-height: 40px;
+                }
     .home{
         // background: red;
-
         nav{
             // background-color: green;
             height: auto;
@@ -14,15 +20,20 @@
                 .row{
                     // background-color: peru;
 
-                    .nav-img{
-
+                    .navimg{
+                        width: 50%;
                     }
                     .navtxt{
                         display: none;
+
+                        h1{
+                            font-size: 3em;
+                        }
                     }
                     .navbtn{
                         // background-color: aqua;
                         margin-top: 10px;
+                        width: 50%;
                     }
                 }
             }
@@ -53,4 +64,95 @@
         background-size: 100%;
         background-position: center;
     }
+
+                   footer {
+                       // background-color: red;
+        
+                       .container {
+                           .row {
+                               display: flex;
+                               // background-color: black;
+                               justify-content: center;
+                               align-items: center;
+        
+                               .fotimg {
+                                   // background-color: blue;
+                                   order: 5;
+                                   display: flex;
+                                   justify-content: center;
+        
+                                   img {
+                                       display: block;
+                                   }
+        
+                                   p {
+                                       display: block;
+                                   }
+                               }
+        
+                               .footdes {
+                                   order: 1;
+                                   // background-color: aqua;
+                                   padding-bottom: 50px;
+        
+                                   .row {
+                                       .footul {
+                                           order: 10;
+                                           // background-color: yellowgreen;
+                                       }
+                                   }
+                               }
+                           }
+                       }
+                   }
+                   
+}
+
+@media (min-width:753px) and (max-width:991px) {
+    .home {
+            // background: red;
+    
+            nav {
+                // background-color: green;
+                height: auto;
+                padding-bottom: 10px;
+                padding-top: 20px;
+    
+                .container {
+                    // background-color: plum;
+    
+                    .row {
+                        // background-color: peru;
+                        display: flex;
+                            justify-content: space-between;
+                        .navimg {
+                            width: 50%;
+                        }
+    
+                        .navtxt {
+                            display: none;
+                        }
+    
+                        .navbtn {
+                            // background-color: aqua;
+                            margin-top: 10px;
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+    
+        }
+
+
+        .about{
+            .container{
+                p{
+                    width: 100%;
+                }
+            }
+        }
+        .utility{
+            background: url(../img/Bgs/Vector.png);
+        }
 }

@@ -1,14 +1,28 @@
 @media screen and (max-width: 752px) {
+  .home nav .container .row .navbtn .navblink a button {
+    display: none;
+  }
+  .home .hometxt .container .maintxt h1 {
+    font-size: 4em;
+    line-height: 40px;
+  }
   .home nav {
     height: auto;
     padding-bottom: 10px;
     padding-top: 20px;
   }
+  .home nav .container .row .navimg {
+    width: 50%;
+  }
   .home nav .container .row .navtxt {
     display: none;
   }
+  .home nav .container .row .navtxt h1 {
+    font-size: 3em;
+  }
   .home nav .container .row .navbtn {
     margin-top: 10px;
+    width: 50%;
   }
   .home .hometxt .container .maintxt p {
     width: 100%;
@@ -20,5 +34,55 @@
     background: #000;
     background-size: 100%;
     background-position: center;
+  }
+  footer .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .row .fotimg {
+    order: 5;
+    display: flex;
+    justify-content: center;
+  }
+  footer .container .row .fotimg img {
+    display: block;
+  }
+  footer .container .row .fotimg p {
+    display: block;
+  }
+  footer .container .row .footdes {
+    order: 1;
+    padding-bottom: 50px;
+  }
+  footer .container .row .footdes .row .footul {
+    order: 10;
+  }
+}
+@media (min-width: 753px) and (max-width: 991px) {
+  .home nav {
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .home nav .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home nav .container .row .navimg {
+    width: 50%;
+  }
+  .home nav .container .row .navtxt {
+    display: none;
+  }
+  .home nav .container .row .navbtn {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .about .container p {
+    width: 100%;
+  }
+  .utility {
+    background: url(../img/Bgs/Vector.png);
   }
 }/*# sourceMappingURL=responsive.css.map */
