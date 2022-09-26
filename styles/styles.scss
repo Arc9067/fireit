@@ -8,7 +8,7 @@
 //global styling ends here
 
 body{
-    background-color: red;
+    background-color: #F7A500;
     
 }
 
@@ -28,7 +28,7 @@ a:hover{
 //font styling here
 @font-face {
     font-family: Poppins;
-    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+    src: url(../fonts/Poppins-Regular.ttf);
     font-style: normal;
 }
 @font-face {
@@ -42,10 +42,16 @@ a:hover{
     font-style: normal;
 }
 
+@font-face {
+    font-family: integralre;
+    src: url(../fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+
 //font variables
 $Popins: Poppins;
 $Siega:Siega;
-$integral:integral;
+$integral:integral ;
+$integralRe:integralre;
 //font variables ends here!
 
 .home{
@@ -53,10 +59,11 @@ $integral:integral;
     background-repeat: no-repeat;
     // object-fit: cover;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: bottom;
+    height: auto;
     width: 100%;
-    padding: 0;
+    padding-bottom: 50px;
+    overflow: hidden;
 
     nav{
         height: 10vh;
@@ -141,5 +148,160 @@ $integral:integral;
             }
         }
     }
+    .hometxt {
+        // background-color: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: greenyellow;
+            padding-top: 50px;
+            flex-direction: column;
+            .maintxt{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    font-family: $integral;
+                    font-size: 1em;
+                    display: block;
+                    // background-color: green;
+                    text-align: center;
+                    color: #fff;
+                    padding-bottom: 20px;
+                }
+                h1{
+                    font-family: $Siega;
+                    font-size: 5em;
+                    // background-color: red;
+                    text-align: center;
+                    line-height: 60px;
+                    color: #F7A500;
+                    display: block;
+                    letter-spacing: 8px;
+
+                    span{
+                        display: block;
+                        -webkit-text-stroke: 2px #ffffff;
+                            color: transparent;
+                    }
+                }
+            p {
+                width: 60%;
+                text-align: center;
+                color: #ffffff;
+                font-family: $integralRe;
+            }
+            .homebtn{
+                width: auto;
+                height: 100px;
+                // background-color: red;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a{
+                    background-color: #f7a500;
+                    font-family: $integral;
+                    border-radius: 60px;
+                    color: #fff;
+                    font-size: 15px;
+                    margin-left: 10px;
+                                    }
+                a:nth-child(1){
+                    background-color: black;
+                    color: #fff;
+                    box-shadow: 10px 10px rgba(0, 0, 0, 0.9);
+                }
+                a:nth-child(2){
+                box-shadow: 10px 10px rgb(247, 165, 0);
+                border: 2px solid #fff;
+                
+                }
+            }
+            }
+        }
+    }
+}
+
+.about{
+    padding: 30px;
+    height: auto;
+    background: linear-gradient(180deg, #000000 69.2%, #281B00 100%);
+    padding-bottom: 50px;
+    overflow: hidden;
+    .container{
+        // background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+
+        h2{
+            font-family: $integral;
+            font-size: 2.5em;
+            display: block;
+            padding-bottom: 30px;
+        }
+        p{
+            width: 60%;
+            text-align: center;
+            font-family: $Popins;
+            color: #DADADA;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.utility{
+    height: auto;
+    width: 100%;
+    background: url(../img/Bgs/utility.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    overflow: hidden;
+
+    .container{
+        // background-color: red;
+
+        .row{
+            // background-color: blue;
+            div{
+                .utilitytxt{
+                    // background-color: yellowgreen;
+
+                    div{
+                        h1{
+                            font-family: $integral;
+                        -webkit-text-stroke: 2px #f5f5f5;
+                            color: transparent;
+                            padding-top: 50px;
+                            font-size: 3em;
+                            span{
+                                display: block;
+                        -webkit-text-stroke: 2px transparent;
+                        color: white;
+                            }
+                        }
+                        p{
+                            font-family: $Popins;
+                            color: #f5f5f5;
+                            padding-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

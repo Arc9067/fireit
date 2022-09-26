@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 752px) {
   .home nav {
     height: auto;
     padding-bottom: 10px;
@@ -8,5 +8,16 @@
   }
   .home nav .container .row .navbtn {
     margin-top: 10px;
+  }
+  .home .hometxt .container .maintxt p {
+    width: 80%;
+  }
+  .about .container p {
+    width: 90%;
+  }
+  .utility {
+    background: #000;
+    background-size: 100%;
+    background-position: center;
   }
 }/*# sourceMappingURL=responsive.css.map */

@@ -1,4 +1,4 @@
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:752px) {
     .home{
         // background: red;
 
@@ -26,5 +26,30 @@
                 }
             }
         }
+
+    }
+    .home{
+        .hometxt{
+            .container{
+                .maintxt{
+                    p{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    .about{
+        .container{
+            p{
+                width: 90%;
+            }
+        }
+    }
+
+    .utility{
+        background: #000;
+        background-size: 100%;
+        background-position: center;
     }
 }
