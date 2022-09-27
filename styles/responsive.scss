@@ -6,8 +6,20 @@
                     font-size: 4em;
                     line-height: 40px;
                 }
+        .home .hometxt .container .maintxt .homebtn a:nth-child(2){
+            box-shadow: none;
+            background-color: #000;
+            opacity: .5;
+            padding: 20px;
+        }
+                .home .hometxt .container .maintxt .homebtn a:nth-child(1){
+                    box-shadow: none;
+                    opacity: .5;
+                    padding: 20px;
+                }
     .home{
         // background: red;
+        height: 100vh;
         nav{
             // background-color: green;
             height: auto;
@@ -42,6 +54,7 @@
     }
     .home{
         .hometxt{
+            height: 80%;
             .container{
                 .maintxt{
                     p{
@@ -63,8 +76,46 @@
         background: #000;
         background-size: 100%;
         background-position: center;
-    }
+            border: 3px solid #F7A500;
 
+        .container{
+            .row{
+                div{
+                    .utilitytxt{
+                        div{
+                            h1{
+                                font-size: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+    }
+    .roadmap{
+        // background: red;
+
+        .container{
+            .row{
+                .roadul{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+        .roadmap .container .row .roadul .row .roadul div:nth-child(1){
+            background: transparent;
+        }
+        .roadmap .container .row .roadul .row .roadul .road2i {
+            background: transparent !important;
+        }
+        .roadmap .container .row .roadul .row .roadul .road3i {
+        background: transparent !important;
+        }
+                .roadmap .container .row .roadul .row .roadul div:nth-child(2){
+                    padding-left: 0;
+                    margin-left: 0;
+                }
                    footer {
                        // background-color: red;
         
@@ -154,5 +205,8 @@
         }
         .utility{
             background: url(../img/Bgs/Vector.png);
+                background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: top;
         }
 }

@@ -6,6 +6,20 @@
     font-size: 4em;
     line-height: 40px;
   }
+  .home .hometxt .container .maintxt .homebtn a:nth-child(2) {
+    box-shadow: none;
+    background-color: #000;
+    opacity: 0.5;
+    padding: 20px;
+  }
+  .home .hometxt .container .maintxt .homebtn a:nth-child(1) {
+    box-shadow: none;
+    opacity: 0.5;
+    padding: 20px;
+  }
+  .home {
+    height: 100vh;
+  }
   .home nav {
     height: auto;
     padding-bottom: 10px;
@@ -24,6 +38,9 @@
     margin-top: 10px;
     width: 50%;
   }
+  .home .hometxt {
+    height: 80%;
+  }
   .home .hometxt .container .maintxt p {
     width: 100%;
   }
@@ -34,6 +51,26 @@
     background: #000;
     background-size: 100%;
     background-position: center;
+    border: 3px solid #F7A500;
+  }
+  .utility .container .row div .utilitytxt div h1 {
+    font-size: 2em;
+  }
+  .roadmap .container .row .roadul {
+    flex-direction: column;
+  }
+  .roadmap .container .row .roadul .row .roadul div:nth-child(1) {
+    background: transparent;
+  }
+  .roadmap .container .row .roadul .row .roadul .road2i {
+    background: transparent !important;
+  }
+  .roadmap .container .row .roadul .row .roadul .road3i {
+    background: transparent !important;
+  }
+  .roadmap .container .row .roadul .row .roadul div:nth-child(2) {
+    padding-left: 0;
+    margin-left: 0;
   }
   footer .container .row {
     display: flex;
@@ -84,5 +121,8 @@
   }
   .utility {
     background: url(../img/Bgs/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
   }
 }/*# sourceMappingURL=responsive.css.map */
