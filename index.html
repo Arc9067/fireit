@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="icon" href="./img/logo.png">
     <script src="https://kit.fontawesome.com/22d9f2c7a2.js" crossorigin="anonymous"></script>
 
@@ -48,11 +50,11 @@
             <div class="container">
                 <div class="maintxt">
                     <h2>Welcome to the</h2>
-                    <h1>Fire <span>token</span></h1>
-                    <p>Fire is a token built on Binance smart chaim network with a vision to provide a place for safe investment.</p>
+                    <h1 data-aos="zoom-in" data-aos-duration="3000">Fire <span>token</span></h1>
+                    <p data-aos="fade-right" data-aos-duration="3000">Fire is a token built on Binance smart chaim network with a vision to provide a place for safe investment.</p>
                     <div class="homebtn">
-                        <a class="btn btn-lg disabled" href="#" role="button">Buy now <img src="./img/fires.png" height="30px" alt=""></a>
-                        <a class="btn btn-lg " href="#" role="button">join community <i class="fa-solid fa-right-long"></i></a>
+                        <a data-aos="fade-right" data-aos-duration="3000" class="btn btn-lg disabled" href="#" role="button">Buy now <img src="./img/fires.png" height="30px" alt=""></a>
+                        <a data-aos="fade-left" data-aos-duration="3000" class="btn btn-lg " href="#" role="button">join community <i class="fa-solid fa-right-long"></i></a>
 
                     </div>
                 </div>
@@ -62,8 +64,8 @@
 
     <section class="containerfluid about">
         <div class="container">
-            <h2>fire token <img src="./img/fires.png" height="40px" alt=""></h2>
-            <p>Fire is a token built on Binance smart chaim network with a vision to provide a place for safe investment. It is lead by
+            <h2 data-aos="zoom-in" data-aos-duration="3000">fire token <img src="./img/fires.png" height="40px" alt=""></h2>
+            <p data-aos="fade-right" data-aos-duration="3000">Fire is a token built on Binance smart chaim network with a vision to provide a place for safe investment. It is lead by
             a well respected team in crypto space. The Fire signifies the zeal and enthusiasm to achieve something greater than the
             current state. In the same fashion, we aspire to build a community which can proudly back a project having utilities and
             can generate a steady stream of revenue for itself.</p>
@@ -79,8 +81,8 @@
                 <div class="col-lg-6 col-sm-10" >
                     <div class="utilitytxt">
                         <div>
-                            <h1>fire token <span>Utility</span></h1>
-                            <p>We plan to build a set of bots/telegram tools which could be used by other projects or investors. These bots would help
+                            <h1 data-aos="zoom-in" data-aos-duration="3000">fire token <span>Utility</span></h1>
+                            <p data-aos="fade-left" data-aos-duration="3000">We plan to build a set of bots/telegram tools which could be used by other projects or investors. These bots would help
                             the project teams to plan their strategies for the growth of their project. Investors would also be able to utilise
                             their bots in order to plan their investment decisions.
                             
@@ -99,13 +101,13 @@
         <div class="container">
             <div class="row">
                 <div class="roadhead col-lg-12 d-flex justify-content-center text-center">
-                    <h1><span>fire</span> our roadmap <img src="./img/fires.png" height="50px" alt=""></h1>
+                    <h1 data-aos="zoom-in" data-aos-duration="3000"><span>fire</span> our roadmap <img src="./img/fires.png" height="50px" alt=""></h1>
                 </div>
                 <div class="col-lg-12 roadul">
                     <div class="row d-flex justify-space-between">
                         <ul class="roadul col-lg-12">
-                            <div><img src="./img/pancakeswap 1.png" height="50px" alt=""></div>
-                            <div>
+                            <div data-aos="fade-right" data-aos-duration="3000"><img src="./img/pancakeswap 1.png" height="50px" alt=""></div>
+                            <div data-aos="fade-left" data-aos-duration="3000">
                                 <ul>
                                     <h1>Phase 1</h1>
                                     <li>PANCAKE SWAP STEALTH LAUNCH</li>
@@ -117,9 +119,9 @@
                             
                         </ul>
                         <ul class="roadul col-lg-12">
-                            <div class="road2i"><img src="./img/10002 1.png" height="50px"
+                            <div data-aos="fade-right" data-aos-duration="3000" class="road2i"><img src="./img/10002 1.png" height="50px"
                                     alt=""></div>
-                            <div>
+                            <div data-aos="fade-left" data-aos-duration="3000">
                                 <ul>
                                     <h1>Phase 1</h1>
                                     <li>PANCAKE SWAP STEALTH LAUNCH</li>
@@ -131,9 +133,9 @@
                         
                         </ul>
                         <ul class="roadul col-lg-12">
-                            <div class="road3i"><img src="./img/pancakeswap 1.png" height="50px"
+                            <div data-aos="fade-right" data-aos-duration="3000" class="road3i"><img src="./img/pancakeswap 1.png" height="50px"
                                      alt=""></div>
-                            <div>
+                            <div data-aos="fade-left" data-aos-duration="3000">
                                 <ul>
                                     <h1>Phase 1</h1>
                                     <li>PANCAKE SWAP STEALTH LAUNCH</li>
@@ -203,7 +205,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
