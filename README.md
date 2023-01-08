@@ -35,4 +35,4 @@ A frontend website for Fire Bsc builtd using html-css-js
 
 ### Link to website Preview
 
-[Link to site](https://scintillating-trifle-137195.netlify.app)
+[Link to site](https://storied-cat-2bf5a9.netlify.app)
